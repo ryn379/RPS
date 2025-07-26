@@ -12,6 +12,7 @@ h1 {
     .image {
         width: 20vw;
         height: 20vw;
+        margin:2vw;
     }
 
     .btnRPS {
