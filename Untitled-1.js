@@ -1,4 +1,4 @@
-const score1=JSON.parse(localStorage.getItem('score'));
+let score1=JSON.parse(localStorage.getItem('score'));
 if(score1===null){
     localStorage.setItem('score',JSON.stringify({win:0,lose:0,draw:0,total:0}));
     score1=JSON.parse(localStorage.getItem('score'));
