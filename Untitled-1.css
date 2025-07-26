@@ -140,7 +140,7 @@ h1{
 
     .clear{
         position: static;
-        margin: 2rem;
+        margin: 2vw;
         display: flex;
         justify-content: center;
     }
