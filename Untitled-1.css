@@ -10,7 +10,7 @@ body{
 }
 h1{
     color:white;
-    margin:4rem;
+    margin:3rem;
     font-size: 5vw;
     font-family: "Rubik Moonrocks", sans-serif;
 }
@@ -89,15 +89,16 @@ h1{
     display:flex;
     justify-content: center;
     align-items: center;
-    position:relative;
-    left:26rem;
-    top:-11.5rem;
+    position:static;
+    margin:1rem auto;
 }
 .btnHide{
-    position:relative;
-    left:26rem;
-    bottom:3.5rem;
+    display: flex;
+    justify-content: center;
+    position:static;
+    margin: -3rem;
     display: none;
+    margin-left: 52vw;
 }
 
 @media (max-width: 1024px) {
@@ -107,8 +108,8 @@ h1{
         margin-top: 2rem;
     }
     .image{
-        height:20vw;
-        width: 20vw;
+        height:18vw;
+        width: 18vw;
     }
     .images {
         display: flex;
@@ -137,14 +138,22 @@ h1{
         text-align: center;
     }
 
-    .clear, .btnHide {
+    .clear{
+        position: static;
+        margin: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .btnHide {
         position: static;
         margin-top: 2rem;
         display: flex;
         justify-content: center;
     }
     .resultContainer{
+        display: flex;
         order: 3;
+        margin: 5vw;
     }
 }
 
