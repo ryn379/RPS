@@ -45,15 +45,15 @@ meText.textContent = 'ME';
 
 /* rock */
 const img1 = document.createElement('img');
-img1.src = 'IMAGES/rock-emoji.png';
+img1.src = 'rock-emoji.png';
 img1.style.width = '6rem';
 /*paper */
 const img2=document.createElement('img');
-img2.src='IMAGES/paper-emoji.png';
+img2.src='paper-emoji.png';
 img2.style.width='6rem';
 /*scissors */
 const img3 =document.createElement('img');
-img3.src='IMAGES/scissors-emoji.png';
+img3.src='scissors-emoji.png';
 img3.style.width='6rem';
 
 //autoplay
