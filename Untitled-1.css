@@ -99,3 +99,52 @@ h1{
     bottom:3.5rem;
     display: none;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 6vw;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .images {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+        position: static;
+    }
+
+    .image {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .btn {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    .btnRPS {
+        width: 20vw;
+        height: 20vw;
+        font-size: 4vw;
+        padding: 0;
+    }
+
+    .display, .counter, .winRate {
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    .clear, .btnHide {
+        position: static;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+
